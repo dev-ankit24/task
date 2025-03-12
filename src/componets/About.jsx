@@ -9,7 +9,7 @@ export default function About() {
   return (
   <>
   
-  <div className="flex   md:px-[13rem]  h-[15rem]  md:mt-10 mt-[12rem] flex-col items-center justify-center  text-center px-4">
+  <div className="flex   md:px-[13rem]  h-[15rem]  md:mt-10 mt-[8rem] flex-col items-center justify-center  text-center px-4">
     {/* Logo */}
     <img
       src={logo} 

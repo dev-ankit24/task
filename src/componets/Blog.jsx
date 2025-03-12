@@ -64,7 +64,7 @@ export default function Blog() {
       
     </div>
 
-    <div className="flex   md:px-[13rem]  h-[5rem]  md:mt-[-14rem] mt-[0rem] flex-col items-center justify-center  text-center px-4">
+    <div className="flex   md:px-[13rem]  h-[5rem]  md:mt-[-14rem] mt-[-3rem] flex-col items-center justify-center  text-center px-4">
       
     
         {/* Button */}
