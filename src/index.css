@@ -4,3 +4,9 @@
 .nav-webkit{
   -webkit-text-stroke: 1px #ffffff;
 }
+body{
+  background: rgba(253, 252, 196, 0.822);
+}
+.about-main{
+  /* padding-top: -4rem; */
+}
