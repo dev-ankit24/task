@@ -40,15 +40,15 @@ export default function Slider() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col md:flex-row">
+    <div className="w-full mt-7 h-screen flex flex-col md:flex-row">
       {/* Slider Section (Desktop Only) */}
-      <div className="md:w-1/1 w-full flex flex-col justify-center items-center bg-gray-200 hidden md:flex">
-        <div className="w-full flex justify-center items-center  ">
-          <div className="w-full relative">
-            <img
+      <div className="md:w-1/1 p-5 w-full flex flex-col justify-center items-center bg-white hidden md:flex">
+        <div className="w-full  flex justify-center items-center  ">
+          <div className="w-full p-5 relative">
+            <img 
               src={images[currentImageIndex]}
               alt={`Image ${currentImageIndex + 1}`}
-              className="w-full h-auto object-cover"
+              className="w-full h-[40rem] object-cover"
             />
             <div className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white bg-black p-2 rounded-full cursor-pointer" onClick={handlePrev}>
               &#10094; {/* Previous arrow */}
@@ -62,9 +62,9 @@ export default function Slider() {
 
       {/* Image Section */}
       <div
-        className="md:w-15 w-full h-full bg-cover bg-center hidden md:block"
+        className="md:w-1/3 p-2 w-full h-[38rem] bg-cover object-cover bg-center hidden md:block"
         style={{
-          backgroundImage: `url('${sli2}')`,
+          backgroundImage: `url('${sli1}')`,
         }}
       ></div>
     </div>
