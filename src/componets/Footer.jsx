@@ -30,7 +30,7 @@ export default function Footer() {
             { location: "Sitapur Ashram", number: "+91-9965678080" },
             { location: "Haridwar Ashram", number: "+91-9965678080" },
            ].map((item, index) => (
-            <div key={index} className="bg-amber-100 mt-5 border-amber-600 border-2 text-black p-4 rounded-lg shadow-lg text-center">
+            <div key={index} className="bg-amber-100 mt-6 border-amber-600 border-2 text-black p-4 rounded-lg shadow-lg text-center">
               <h3 className="text-lg font-semibold">{item.location}</h3>
               <div className="flex items-center justify-center mt-2">
                 <Phone className="text-orange-600 pl-[-3rem]" />
