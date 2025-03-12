@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 export default function VideoSection() {
   return (
     <>
-      <div className="flex   md:px-[13rem]  h-[15rem]  md:mt-5 mt-[1px] flex-col items-center justify-center  text-center px-4">
+      <div className="flex   md:px-[13rem] mt-[-3rem] h-[15rem]  md:mt-5  flex-col items-center justify-center  text-center px-4">
         {/* Logo */}
         <img
           src={logo} 
