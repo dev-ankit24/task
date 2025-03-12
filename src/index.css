@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Navbar css start */
+.nav-webkit{
+  -webkit-text-stroke: 1px #ffffff;
+}
