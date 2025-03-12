@@ -40,23 +40,23 @@ export default function Blog() {
 
       {/* Second Child: Logo + H2 */}
       <div className="w-full md:w-1/2  items-center justify-center">
-        <div className="flex items-center space-x-4 p-6">
+        <div className="flex items-center space-x-4 p-5">
           <img src={bgImage1} alt="Logo" className="w-12 h-12" />
           <h2 className="text-2xl font-semibold text-gray-800">गौशाला</h2>
         </div>
-        <div className="flex items-center space-x-4 p-6">
+        <div className="flex items-center space-x-4 p-5">
           <img src={bgImage2} alt="Logo" className="w-12 h-12" />
           <h2 className="text-2xl font-semibold text-gray-800">संस्कृत विद्यालय​</h2>
         </div>
-        <div className="flex items-center space-x-4 p-6">
+        <div className="flex items-center space-x-4 p-5">
           <img src={bgImage3} alt="Logo" className="w-12 h-12" />
           <h2 className="text-2xl font-semibold text-gray-800">संस्कृत विद्यालय</h2>
         </div>
-        <div className="flex items-center space-x-4 p-6">
+        <div className="flex items-center space-x-4 p-5">
           <img src={bgImage4} alt="Logo" className="w-12 h-12" />
           <h2 className="text-2xl font-semibold text-gray-800">सत्संग</h2>
         </div>
-        <div className="flex items-center space-x-4 p-6">
+        <div className="flex items-center space-x-4 p-5">
           <img src={bgImage5} alt="Logo" className="w-12 h-12" />
           <h2 className="text-2xl font-semibold text-gray-800">भगवत आरती</h2>
         </div>

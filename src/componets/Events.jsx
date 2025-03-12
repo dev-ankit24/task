@@ -6,7 +6,7 @@ import  ev3 from "../assets/ev3.png"
 export default function Events() {
   return (
    <>
-    <div className="w-full mt-48  md:mt-[-5rem] h-[20rem] flex flex-col md:flex-row items-center justify-center gap-6 p-6">
+    <div className="w-full mt-48  md:mt-[-5rem] h-[23rem] flex flex-col md:flex-row items-center justify-center gap-6 p-6">
       
       {/* Child 1 */}
       <div className="w-full md:w-1/3 bg-orange-400 shadow-lg hover:bg-orange-300  p-6 text-center flex flex-col items-center">

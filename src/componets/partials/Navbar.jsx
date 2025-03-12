@@ -22,7 +22,7 @@ export default function Navbar() {
         </div>
         <header className='bg-black-500 flex-wrap  md:px-[15rem] top-0 z-[20] mx-auto flex w-full items-center justify-between border-gray-500 px-8 br '>
             <div className="logo  h-15 w-18 mt-5">
-                <NavLink to='/'>
+                <NavLink to='/error'>
                 <img src={logo }className='w-16 h-14' alt="" srcset="" />
                 </NavLink>
             </div>
