@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
-import logo from  "../assets/logo.png"
+import logo from  "../../assets/logo.png"
 import { Menu, X } from 'lucide-react';
 import { Link, NavLink } from 'react-router-dom'
-import Navlinks from './partials/Navliks'
+import Navlinks from './Navliks'
 export default function Navbar() {
     const [isOpen,setIsOpen] = useState(false)
 
@@ -20,9 +20,9 @@ export default function Navbar() {
                 <Link target='_blank' className='text-white font-semibold items-center align-middle hover:text-gray-300' to="tel:+91987456130">+91 9874563201</Link>
             </span>
         </div>
-        <header className='bg-black-500 flex-wrap sticky md:px-[15rem] top-0 z-[20] mx-auto flex w-full items-center justify-between border-gray-500 px-8 br '>
+        <header className='bg-black-500 flex-wrap  md:px-[15rem] top-0 z-[20] mx-auto flex w-full items-center justify-between border-gray-500 px-8 br '>
             <div className="logo  h-15 w-18 mt-5">
-                <NavLink to={'/'}>
+                <NavLink to='/'>
                 <img src={logo }className='w-16 h-14' alt="" srcset="" />
                 </NavLink>
             </div>
