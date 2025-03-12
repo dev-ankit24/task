@@ -50,7 +50,7 @@ export default function Home() {
         {isPopupOpen && (
           <div
             ref={popupRef}
-            className="fixed bottom-14 right-6 w-[26rem] h-[20rem] bg-orange-300 shadow-xl rounded-lg p-4 border border-gray-200"
+            className="fixed bottom-14 right-6 md:w-[26rem] w-[20rem]  h-[20rem] bg-orange-300 shadow-xl rounded-lg p-4 border border-gray-200"
           >
             <h3 className="text-lg font-bold text-center mb-2">आने वाला कार्यकर्म
             </h3>
